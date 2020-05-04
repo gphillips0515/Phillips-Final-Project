@@ -15,6 +15,10 @@
 		164DFDC6245F880D00EC67D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 164DFDC4245F880D00EC67D8 /* LaunchScreen.storyboard */; };
 		164DFDD1245F880D00EC67D8 /* Phillips_Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164DFDD0245F880D00EC67D8 /* Phillips_Final_ProjectTests.swift */; };
 		164DFDDC245F880D00EC67D8 /* Phillips_Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164DFDDB245F880D00EC67D8 /* Phillips_Final_ProjectUITests.swift */; };
+		164DFDEC245F96C500EC67D8 /* menuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164DFDEB245F96C500EC67D8 /* menuViewController.swift */; };
+		164DFDEE245F98E700EC67D8 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164DFDED245F98E700EC67D8 /* NewViewController.swift */; };
+		164DFDF0245F9B4000EC67D8 /* orderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 164DFDEF245F9B4000EC67D8 /* orderViewController.swift */; };
+		164DFDF2245FAC1500EC67D8 /* Menupdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 164DFDF1245FAC1500EC67D8 /* Menupdf.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		164DFDD7245F880D00EC67D8 /* Phillips Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Phillips Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		164DFDDB245F880D00EC67D8 /* Phillips_Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phillips_Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		164DFDDD245F880D00EC67D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		164DFDEB245F96C500EC67D8 /* menuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuViewController.swift; sourceTree = "<group>"; };
+		164DFDED245F98E700EC67D8 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
+		164DFDEF245F9B4000EC67D8 /* orderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = orderViewController.swift; sourceTree = "<group>"; };
+		164DFDF1245FAC1500EC67D8 /* Menupdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Menupdf.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,14 @@
 		164DFDB8245F880800EC67D8 /* Phillips Final Project */ = {
 			isa = PBXGroup;
 			children = (
+				164DFDF1245FAC1500EC67D8 /* Menupdf.pdf */,
 				164DFDB9245F880800EC67D8 /* AppDelegate.swift */,
 				164DFDBB245F880800EC67D8 /* SceneDelegate.swift */,
 				164DFDBD245F880900EC67D8 /* ViewController.swift */,
 				164DFDBF245F880900EC67D8 /* Main.storyboard */,
+				164DFDEF245F9B4000EC67D8 /* orderViewController.swift */,
+				164DFDED245F98E700EC67D8 /* NewViewController.swift */,
+				164DFDEB245F96C500EC67D8 /* menuViewController.swift */,
 				164DFDC2245F880D00EC67D8 /* Assets.xcassets */,
 				164DFDC4245F880D00EC67D8 /* LaunchScreen.storyboard */,
 				164DFDC7245F880D00EC67D8 /* Info.plist */,
@@ -234,6 +246,7 @@
 			files = (
 				164DFDC6245F880D00EC67D8 /* LaunchScreen.storyboard in Resources */,
 				164DFDC3245F880D00EC67D8 /* Assets.xcassets in Resources */,
+				164DFDF2245FAC1500EC67D8 /* Menupdf.pdf in Resources */,
 				164DFDC1245F880900EC67D8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,8 +273,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				164DFDBE245F880900EC67D8 /* ViewController.swift in Sources */,
+				164DFDF0245F9B4000EC67D8 /* orderViewController.swift in Sources */,
 				164DFDBA245F880800EC67D8 /* AppDelegate.swift in Sources */,
+				164DFDEE245F98E700EC67D8 /* NewViewController.swift in Sources */,
 				164DFDBC245F880800EC67D8 /* SceneDelegate.swift in Sources */,
+				164DFDEC245F96C500EC67D8 /* menuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
